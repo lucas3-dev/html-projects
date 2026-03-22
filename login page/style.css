@@ -1,0 +1,102 @@
+/* 1. Basic Reset & Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Soft blue-grey background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Centers content vertically */
+}
+
+/* 2. Header Styling */
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1a365d;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+/* 3. Main Container (The Card) */
+main {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Keeps the form from getting too wide */
+    text-align: center;
+}
+
+main p {
+    font-size: 0.95em;
+    color: #64748b;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* 4. Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Hide the <br> tags since we are using CSS margins for spacing */
+form br {
+    display: none; 
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #334155;
+}
+
+/* 5. Input Fields */
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); /* Glow effect on click */
+}
+
+/* 6. Submit Button */
+button[type="submit"] {
+    background-color: #3b82f6;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
