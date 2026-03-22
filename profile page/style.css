@@ -1,0 +1,132 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* Logo */
+.logo h2 {
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+/* Nav links */
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN SECTION ===== */
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+    gap: 40px;
+}
+
+/* IMAGE */
+.image img {
+    width: 260px;
+    border-radius: 20px;
+}
+
+/* CONTENT */
+.content {
+    max-width: 600px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* CONTACT */
+.content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+body {
+    background: linear-gradient(to right, #0f172a, #1e293b);
+}
+.image img {
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
+    color: white;
+}
+.content {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #e2e8f0;
+}
+.content a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.content a:hover {
+    color: #0ea5e9;
+}
